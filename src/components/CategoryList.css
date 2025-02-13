@@ -1,0 +1,47 @@
+.category-list {
+    padding: 2rem 0;
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .category-card {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category-card h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .category-card p {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  .view-recipes-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-recipes-btn:hover {
+    background-color: black;
+    text-decoration: none;
+  }
